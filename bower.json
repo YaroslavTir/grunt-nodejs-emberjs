@@ -1,0 +1,7 @@
+{
+  "name": "grunt-nodejs-emberjs",
+  "version": "0.0.1-SNAPSHOT",
+  "dependencies": {
+    "ember": "2.4.0"
+  }
+}
