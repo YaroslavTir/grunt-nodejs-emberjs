@@ -1,14 +1,24 @@
-
 {
   "name": "grunt-nodejs-emberjs",
   "version": "0.0.1-SNAPSHOT",
   "dependencies": {
-    "bower": "1.7.7"
+    "bower": "1.7.7",
+    "express": "^4.13.4",
+    "socket.io": "1.1.*",
+    "jade": "1.6.*",
+    "express": "4.8.*",
+    "serve-favicon": "2",
+    "morgan": "1.3.*",
+    "method-override":"*", //added missing ,
+    "body-parser": "1.8",
+    "errorhandler": "*",
+    "express-session": "*",
+    "multer": "0.1.*"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-nodeunit": "~0.4.1",
-    "grunt-contrib-uglify": "~0.5.0"
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-nodeunit": "~1.0.0",
+    "grunt-contrib-uglify": "~1.0.0"
   }
 }
