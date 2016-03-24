@@ -6,8 +6,19 @@
 </head>
     <body>
     	<p>Hello this test page</p>
-        <script src="bower_components/jquery/jquery.js"></script>
-        <script src="bower_components/ember/ember-runtime.js"></script>
+
+		<script type="text/x-handlebars" id="test">
+		   <p> inline template </p>
+		    <p> _{{model.testValue}} _</p>
+		    <p>{{concat "concat" "  test"}}</p>
+		    {{outlet}}
+		</script>
+
+
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/ember/ember-template-compiler.js"></script>
         <script src="bower_components/ember/ember.js"></script>
+        <script src="js/application.js"></script>
+
 </body>
 </html>
